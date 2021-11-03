@@ -15,14 +15,25 @@
   </head>
   <body>
     <header id="header">
-      <nav id="nav-bar">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="nav-bar">
           <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="media/logo.png" alt="cryptoknow.io logo" id="header-img"></a>
+              <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <a class="nav-link active me-auto" aria-current="page" href="#" id="nav-link">About</a>
+                      <a class="nav-link me-auto" href="#" id="nav-link">Features</a>
+                      <a class="nav-link me-auto" href="#" id="nav-link">Pricing</a>
+                  </div>
+              </div>
           </div>
       </nav>
+      <div class="container-fluid d-flex justify-content-center" id="main-logo">
+          <img src="media/cryptoknow.io.png" id="header-img" class="img-fluid">
+        
+      </div>
     </header>
     <main></main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
