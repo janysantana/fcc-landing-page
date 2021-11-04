@@ -26,12 +26,12 @@ nav {
 
 h1 {
   color: var(--light-branding-color);
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: monospace;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  animation: pulse 3s ease infinite alternate,
+  animation: pulse 1.5s ease infinite alternate,
     nudge 5s linear infinite alternate;
 }
 
