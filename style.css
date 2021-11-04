@@ -72,6 +72,8 @@ p {
 
 form {
   padding-top: 30px;
+  width: 100%;
+  margin-bottom: 120px;
 }
 
 nav {
@@ -106,4 +108,10 @@ a {
 
 .signup {
     max-width: 400px;
+}
+
+#footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
 }
